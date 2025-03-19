@@ -14,7 +14,7 @@ body {
     position: relative;
     width: 200px;
     height: 150px;
-    background: #e74c3c;
+    background: #dfd9d0;
     margin: 50px auto;
     border-radius: 10px;
     overflow: hidden;
@@ -29,18 +29,13 @@ body {
     left: 0;
     width: 100%;
     height: 100px;
-    background: #c0392b;
+    background: #F5EFE5;
     clip-path: polygon(0 0, 100% 0, 50% 100%);
     transition: transform 0.5s ease-in-out;
     transform-origin: top;
 }
 
-.body {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #e74c3c;
-}
+
 
 .envelope.open .flap {
     transform: rotateX(180deg);
